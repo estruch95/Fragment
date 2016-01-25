@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Animation fadeIn = AnimationUtils.loadAnimation(this, R.anim.abc_fade_in);
-        Animation fadeOut = AnimationUtils.loadAnimation(this, R.anim.abc_fade_out);
+        Animation fadeIn = AnimationUtils.loadAnimation(this, R.anim.abc_slide_in_top);
+        Animation fadeOut = AnimationUtils.loadAnimation(this, R.anim.abc_slide_in_bottom);
         imageSwitcher.setInAnimation(fadeIn);
         imageSwitcher.setOutAnimation(fadeOut);
 
